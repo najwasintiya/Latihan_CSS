@@ -1,0 +1,61 @@
+.card{
+    background: white; 
+    border: 8px solid rgb(231, 209, 255);
+    width: 200px;
+    border-radius: 8px;
+    padding: 12px;
+    /* transition: all box-shadow 1s ease-out;
+    animation-name: changeBorderColor;
+    animation-delay: 5s;
+    animation-duration: 3s; */
+    height: max-content;
+    position: absolute;
+}
+
+.card > img{
+    width: 190px;
+    border-radius: 8px;
+}
+
+.card .title{
+    font-size: 32px;
+    color: purple;
+    margin: 0 16px 16px 0;
+}
+
+.card .description{
+    font-size: 16px;
+    color: rgb(232, 155, 255);
+    margin: 0 32px 32px 0;
+}
+
+.card .card-link{
+    text-decoration: none;
+    color: rgb(187, 133, 223);s
+}
+
+.card .card-link:hover{
+    color: blue;
+}
+
+.card:hover{
+    box-shadow: 4px 8px 64px rgb(131, 2, 236);
+    /* transform: rotate(45deg); */
+}
+
+@keyframes changeBorderColor{
+    0% {border-color: rgb(179, 133, 240);}
+    25%{border-color: blueviolet;}
+    50%{border-color: rgb(43, 16, 75);}
+    75%{border-color: rgb(172, 82, 233);}
+    100%{border-color: rgb(189, 163, 201);}
+}
+
+.container{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+}

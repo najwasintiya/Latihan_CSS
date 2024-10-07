@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+
+    <!-- INI UNTUK CSS-->
+
+
+<style>
+
+h1 {
+    color:red;
+}
+[name="judul"] {
+    color:purple;
+}
+
+p{
+    font-size: 18px;
+}
+#prg3{
+    color: blue;
+}
+.custom-paragraf{
+    font-size: 5rem;
+    color: red;
+}
+.text-black{
+    color: black;
+}
+
+.paragraf-highlight{
+    color: #404040;
+}
+.paragraf-highlight > .text-highlight{
+    color: #b4382f;
+}
+
+
+</style>
+
+<link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    
+    <h1 style="color: red; font-family: sans-serif; text-align: center; margin-bottom: 24px;">Contoh Penulisan dengan CSS</h1>
+
+<div style="border: 1px solid black; padding:24px 32px; margin: 24px 0 64px 0; border-radius: 0 10px 0 24px;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sunt blanditiis rem nobis dolor, pariatur id, maiores quos earum temporibus cumque odit labore quaerat doloribus qui inventore reiciendis magnam quod?</p>
+</div>
+
+<div style="border: 1px solid black; padding:24px 32px; text-align: center;">
+    <p><span style="text-decoration: line-through;"> Lorem ipsum </span> dolor sit amet consectetur adipisicing elit. Illum sunt blanditiis rem nobis dolor, pariatur id, maiores quos earum temporibus cumque odit labore quaerat doloribus qui inventore reiciendis magnam quod?</p>
+</div>
+
+<div align="center">
+    <p><strike>Lorem ipsum </strike>dolor sit amet consectetur adipisicing elit. Illum sunt blanditiis rem nobis dolor, pariatur id, maiores quos earum temporibus cumque odit labore quaerat doloribus qui inventore reiciendis magnam quod?</p>
+</div>
+
+<h1 name="judul">Ini Judul</h1>
+<h3>Paragraf 1</h3>
+<p>Paragraf 1</p>
+<p class="custom-paragraf">Paragraf 2</p>
+<p id="prg3" class="custom-paragraf">Paragraf 3</p>
+<p class="custom-paragraf text-black">Paragraf 4</p>
+<p class="custom-paragraf">Paragraf 5</p>
+
+<p class="paragraf-highlight">Saya sedang belajar css di <span class="text-highlight">kelas disnaker bandung</span></p>
+
+<h2 class="judul">Ini Judul yang <span class="highlight">panjang sekali</span></h2>
+
+<div class="container">
+<div class="card">
+<img src="barbie.jpg" alt="image title"/>
+<div class="card-body">
+<h3 class="title">Barbie kita beda</h3>
+<p class="description">Perhatikan gambar barbie ini dengan seksama</p>
+<a href="#" class="card-link">Lihat seluruhnya</a>
+</div>
+</div>
+<div class="card">
+    <img src="barbie.jpg" alt="image title"/>
+    <div class="card-body">
+    <h3 class="title">Barbie kita beda</h3>
+    <p class="description">Perhatikan gambar barbie ini dengan seksama</p>
+    <a href="#" class="card-link">Lihat seluruhnya</a>
+    </div>
+    </div><div class="card">
+        <img src="barbie.jpg" alt="image title"/>
+        <div class="card-body">
+        <h3 class="title">Barbie kita beda</h3>
+        <p class="description">Perhatikan gambar barbie ini dengan seksama</p>
+        <a href="#" class="card-link">Lihat seluruhnya</a>
+        </div>
+        </div>
+</div>
+</body>
+</html>
